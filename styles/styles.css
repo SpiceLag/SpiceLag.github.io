@@ -225,7 +225,6 @@ span {
 }
 .experience-content p
 {
-    text-align: justify;
     font-size: 20px;
     margin: 1% 0 1%;
 }
@@ -253,16 +252,15 @@ span {
 {
     display: grid;
     grid-template-columns:
-        repeat(
-            2,
-            minmax(150px, 1fr)
+    repeat(
+        2,
+        minmax(150px, 1fr)
         );
-    gap: 5%;
+    gap: 1.2%;
 }
 .projectsGrid p
 {
     margin-top: 5%;
-    text-align: justify;
 }
 
 ::-webkit-scrollbar{
