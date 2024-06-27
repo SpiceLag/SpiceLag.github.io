@@ -149,6 +149,20 @@ span {
 .my-image
 {
     width: 200%;
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+}
+
+img
+{
+    border-radius: 3%;
+}
+
+video
+{
+    border-radius: 3%;
 }
 .btn-box{
     width: 345px;
